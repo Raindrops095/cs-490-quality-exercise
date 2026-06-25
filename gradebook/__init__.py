@@ -1,5 +1,5 @@
 """Gradebook package."""
 
-from .app import GradebookApp
+from .cli import main, run
 
-__all__ = ["GradebookApp"]
+__all__ = ["main", "run"]
